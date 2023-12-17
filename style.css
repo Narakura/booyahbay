@@ -74,14 +74,30 @@ body {
         border-bottom-left-radius: 20px;
     }
 
+    .short_right {
+        width: 100% !important;
+        text-align: center !important;
+        align-content:center !important;
+    }
+
+    .large_left {
+        width: 100% !important;
+        text-align: center !important;
+        align-content: center !important;
+        margin: 0 auto !important; /* Center the element horizontally */
+        display: block !important; /* Ensure it's treated as a block-level element */
+    }
+
+
+
     .dropbtn {
         text-align: center;
         margin-left: 0px;
         margin-bottom: 10px !important;
     }
 
-    #WIP {
-        width:100% !important;
+    #BrandLogo {
+        width: 60% !important;
     }
 
     .row {
@@ -101,6 +117,10 @@ body {
 
     #me {
         margin-bottom: 20px;
+    }
+
+    #pirate_picture {
+        width: 60% !important;
     }
 
 }
@@ -276,6 +296,11 @@ nav {
 }
 
 
+.no_shadow {
+    box-shadow: none !important;
+}
+
+
 
 
 .right {
@@ -294,6 +319,14 @@ nav {
     background-color: #fdfffc;
 }
 
+
+.short_right {
+    width: 60%;
+}
+
+.large_left {
+    width: 40%;
+}
 
 
 .project_logo {
@@ -351,20 +384,23 @@ nav {
 }
 
 
-#WIP {
+#BrandLogo {
     transition: all 0.5s linear;
 }
 
-#WIP:hover {
-    transform: translateY(-6px);
-}
+    #BrandLogo:hover {
+        transform: translateY(-6px);
+    }
 
+
+.white_text{
+    color=white !important;
+}
 
 
 .plain_text {
     font-size:17px;
     justify-content:center;
-    color: white;
 }
 
 
@@ -617,3 +653,37 @@ variab {
         -moz-transition: opacity .25s ease-in-out;
         -webkit-transition: opacity .25s ease-in-out;
     }
+
+
+
+
+    #pirate_picture {
+        width:90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.outline {
+    border:solid;
+}
+
+.center {
+    text-align:center;
+}
+
